@@ -1,0 +1,122 @@
+html{
+    height:100%;
+}
+/* Navigation link styles from here to line 11 */
+/* Having trouble making the links individual from eachother AND from the logo for positioning */
+.topnav a{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    padding: 20px 12px;
+}
+.topnav a:link{
+    text-decoration:none;
+}
+.topnav a:hover{
+    text-decoration:underline;
+}
+.navigation-left{
+    float: left;
+}
+.navigation-right{
+    float:right;
+}
+.logo{
+    display:inline-block;
+    margin:0 auto;
+}
+/* Searchbar stuff */
+.bar-center{
+    width:100%;
+    text-align:center;
+}
+.Searchbar{
+    -webkit-appearance: none;
+    display:inline-block;
+    margin:0 auto;
+    
+}
+.Searchbar input{
+    -webkit-appearance:none;
+    padding: 0px 30px;
+    margin-bottom:30px;
+    height:40px;
+    width:500px;
+    border-radius:20px;
+    border: 1px solid #dfe1e5;
+    font-size: 14px;
+}
+.Searchbar input:focus{
+    outline:none;
+}
+/* Did have the search bar hover code here, couldn't make it work */
+
+.buttons{
+    width:100%;
+    text-align:center;
+}
+.googlebutton{
+    display:inline-block;
+    top: 370px;
+    left:440px;
+}
+.luckybutton{
+    display:inline-block;
+    top: 370px;
+    right: 455px;
+}
+/* Affects both buttons */
+input[type="submit"]{
+    -webkit-appearance:none;
+    font-size: 14px;
+    width:140px;
+    height:40px;
+    background-color:#f2f2f2;
+    border-color: white;
+    border-radius:6px;
+}
+input[type="submit"]:hover{
+    box-shadow: 1px; border-color:gray;
+}
+input[type="submit"]:focus{
+    outline:none;
+}
+.botleft{
+    background-color: #f2f2f2;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 50%;
+}
+.botright{
+    background-color: #f2f2f2;
+    overflow: hidden;
+    position:fixed;
+    bottom: 0;
+    right:0;
+    width: 50%;
+}
+.botleft a{
+    float: left;
+    display:inline-block;
+    padding: 20px 12px;
+}
+.botright a{
+    float: right;
+    display:inline-block;
+    padding: 20px 12px;
+}
+.botnav a{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    padding: 20px 12px;
+    padding-bottom:0;
+}
+.botnav a:link{
+    text-decoration:none;
+}
+.botnav a:hover{
+    text-decoration:underline;
+}
